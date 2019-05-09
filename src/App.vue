@@ -29,5 +29,4 @@ export default {
   @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,500,700");
   @import url("./assets/css/reset.css");
   @import url("./assets/css/style.css");
-  @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 </style>
