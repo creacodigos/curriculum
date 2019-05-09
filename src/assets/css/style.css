@@ -109,6 +109,10 @@ i{
     margin-right: 0.4em;
 }
 
+pre{
+    white-space: pre-line;
+}
+
 .ok {
     display: none;
 }
