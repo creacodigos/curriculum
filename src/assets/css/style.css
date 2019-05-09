@@ -1,22 +1,24 @@
 * {
-    box-sizing      : border-box;
+    box-sizing: border-box;
 }
 
-html, body{
-    font-size       : 16px;
-    font-family     : 'Barlow Condensed', sans-serif;
-    font-family     : 'Marvel', sans-serif;
-    font-family     : 'Saira Condensed', sans-serif;
-    font-weight     : 300;
+html,
+body {
+    font-size: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Marvel', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 300;
 }
+
 strong,
 h1,
 h2,
 h3,
 h4,
 h5{
-    font-weight     : 500;
-    text-transform  : uppercase;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 h1{
@@ -54,7 +56,7 @@ footer{
 }
 
 nav{
-    
+    display: none;
     background-color: #000;
     text-transform  : uppercase;
     margin-bottom   : 1em;
@@ -187,7 +189,7 @@ section {
 .one {
 
     background-image     : linear-gradient( 100deg, #fdfbfb 10%, #f1f1f1 100%);
-    margin: -2em auto -1em auto;
+    margin: -1em auto -1em auto;
     grid-column          : 1;
 }
 .two { 
@@ -293,6 +295,6 @@ section {
     }
   
     .one {
-        margin:-1.5em auto 0 auto;
+        margin:0 auto;
     }  
 }
