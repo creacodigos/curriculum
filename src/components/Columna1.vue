@@ -3,15 +3,15 @@
 
     <section aria-labelledby="datos">
       <article>
-        <img :src= `/assets/img/${datos.datos.image}` alt="Foto Jorge Santana">
+        <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
       </article>
       <article>
         <div>
           <ul>
-            <li><strong><i class="fas fa-envelope"></i>EMAIL:</strong> <a :href=`mailto:${datos.datos.email}`>{{ datos.datos.email }}</a></li>
-            <li><strong><i class="fas fa-baby-carriage"></i>HIJO:</strong> <a :href=`${datos.datos.hijo}` target="_blank" title="Portal de Músicos Canarios">{{ datos.datos.hijo }}</a></li>
-            <li><strong><i class="fas fa-robot"></i>WEB:</strong> <a :href=`${datos.datos.url}`>{{ datos.datos.url }}</a></li>
-            <li><strong><i class="fab fa-linkedin"></i>LINKEDIN:</strong> <a :href=`https://www.linkedin.com/in/${datos.datos.linkedin}/` target="_blank">{{ datos.datos.linkedin }}</a></li>
+            <li><strong><i class="fas fa-envelope"></i>EMAIL:</strong> <a :href=`mailto:${datos.email}`>{{ datos.email }}</a></li>
+            <li><strong><i class="fas fa-baby-carriage"></i>HIJO:</strong> <a :href=`${datos.hijo}` target="_blank" title="Portal de Músicos Canarios">{{ datos.hijo }}</a></li>
+            <li><strong><i class="fas fa-robot"></i>WEB:</strong> <a :href=`${datos.url}`>{{ datos.url }}</a></li>
+            <li><strong><i class="fab fa-linkedin"></i>LINKEDIN:</strong> <a :href=`https://www.linkedin.com/in/${datos.linkedin}/` target="_blank">{{ datos.linkedin }}</a></li>
           </ul>
         </div>
       </article>
@@ -23,11 +23,11 @@
         </h4>
         <div>
           <ul>
-            <cr-habilidad v-for="(e,i) in datos.habilidades"
+            <cr-listado v-for="(e,i) in habilidades"
                 :key="i" 
                 :numid="i" 
-                :habilidad="e">
-            </cr-habilidad>
+                :dato="e">
+            </cr-listado>
           </ul>
         </div>
       </article>
@@ -36,15 +36,16 @@
 </template>
 
 <script>
-import Habilidad from './Habilidad';
+import Listado from './Listado';
 export default {
     name: 'Columna1',
     components: {
-        'cr-habilidad': Habilidad
+        'cr-listado': Listado
     },
     data() {
         return {
-            datos: this.$parent.$parent.datos
+            datos: this.$parent.$parent.datos.datos,
+            habilidades: this.$parent.$parent.datos.habilidades
         }
     }
 }

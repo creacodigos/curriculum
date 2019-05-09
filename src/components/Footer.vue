@@ -1,13 +1,18 @@
 <template>
   <footer>
     <div>
-      Jorge Santana - @creacodigos 
+      {{ nombre }} - @creacodigos 
     </div>
   </footer>    
 </template>
 
 <script>
 export default {
-	name: 'CrFooter'
+	name: 'CrFooter',
+    data() {
+        return {
+            nombre: this.$parent.datos.datos.nombre
+        }
+    }
 }
 </script>

@@ -7,30 +7,11 @@
         </h4>
         <div>
           <ul>
-            <li>
-              <h5>Técnico Superior Desarrollo de Aplicaciones Web</h5>
-              <h5 class="cargo">
-                C.I.F.P. César Manrique
-              </h5>
-              <p>
-                Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos. JAVA SE, PHP, XNL, CSS, FTP, DNS.
-              </p>
-              <h6 class="cargo">
-                2015 - 2018
-              </h6>
-            </li>
-            <li>
-              <h5>Licenciado en Bellas Artes - Diseño</h5>
-              <h5 class="cargo">
-                U.L.L.
-              </h5>
-              <p>
-                Cursando el itinerario de Diseño Gráfico. 
-              </p>
-              <h6 class="cargo">
-                2000 - 2005
-              </h6>
-            </li>
+              <cr-listado v-for="(e,i) in datos.formacion"
+                            :key="i" 
+                            :numid="i" 
+                            :dato="e">
+                </cr-listado>
           </ul>
         </div>
       </article>
@@ -43,30 +24,11 @@
         </h4>
         <div>
           <ul>
-            <li>
-              <strong>Introducción a Vue.JS</strong>
-              <p>
-                Fundación General de la Universidad de La Laguna
-              </p>                                
-            </li>
-            <li>
-              <strong>Crear un API RESTful con Slim PHP y usarla con AJAX</strong>
-              <p>Udemy</p>
-            </li>
-            <li>
-              <strong>Programación con JavaScript</strong>
-              <p>Fundación General de la Universidad de La Laguna</p>
-            </li>
-            <li>
-              <strong>Aprende a programar aplicaciones Móviles</strong>
-              <p>Miriadax</p>
-            </li>
-
-                            
-            <li>
-              <strong>Máster JAVA SE8</strong>
-              <p>Intecssa 2018 - 2019</p>
-            </li>
+            <cr-listado v-for="(e,i) in datos.cursos"
+                        :key="i" 
+                        :numid="i" 
+                        :dato="e">
+            </cr-listado>
           </ul>
         </div>
       </article>
@@ -79,7 +41,7 @@
         </h4>
         <div>
           <p>
-            La Música, La guitarra, el bajo, la batería, el cine, las series, la tecnología, los cachivaches, las ofertas de pccomponentes y el chocolate.
+            {{ datos.aficiones }}
           </p>
         </div>
       </article>
@@ -88,7 +50,16 @@
 </template>
 
 <script>
+import Listado from './Listado';
 export default {
-	name: 'Columna3'
+	name: 'Columna3',
+    components: {
+        'cr-listado': Listado
+    },
+    data() {
+        return {
+            datos: this.$parent.$parent.datos
+        }
+    }
 }
 </script>
