@@ -12,7 +12,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-//import elements from "./assets/frameworks.json";
+import data from "./assets/data/data.json";
 
 export default {
 	name: 'App',
@@ -21,7 +21,12 @@ export default {
 		'cr-nav': Nav,
 		'cr-main': Main,
 		'cr-footer': Footer
-	}
+  },
+  data() {
+    return {
+      elements: data
+    };
+  }
 };
 </script>
 
