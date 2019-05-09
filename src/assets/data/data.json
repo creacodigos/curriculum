@@ -54,17 +54,17 @@
             "valor" : 90
         }
     },
-    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS. Full Stack Developer, Analista Programador, Desarrollo en metodologías ágiles, Programación segura en entorno PCI-DSS, Programación imperativa, MVC, Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com. Muchos cambios, necesidades y aprendizajes me han llevado a dedicarme profesionalmente a este apasionante mundo del desarrollo web especializándome en back-end sobre lenguaje PHP.\n\nActualmente estoy en proceso de actualización. Estudiando la evolución de JavaScript y afianzando los patrones de diseño. En proceso de aprendizaje de frameworks como VueJS y Laravel.",
+    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS. Full Stack Developer, Analista Programador, Desarrollo en metodologías ágiles, Programación segura en entorno PCI-DSS, Programación imperativa, MVC, Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico.\n\n Aprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com. Muchos cambios, necesidades y aprendizajes me han llevado a dedicarme profesionalmente a este apasionante mundo del desarrollo web especializándome en back-end sobre lenguaje PHP.\n\n Actualmente estoy en proceso de actualización. Estudiando la evolución de JavaScript y afianzando los patrones de diseño. En proceso de aprendizaje de frameworks como VueJS y Laravel.",
     "experiencia" : {
         "0" : {
-            "empresa" : "Alejada SL",
-            "cargo" : "Analista Programador y Diseñador Web",
+            "titulo" : "Alejada SL",
+            "name" : "Analista Programador y Diseñador Web",
             "info"  : "Desarrollo, gestión e implementación de varias aplicaciones internas de gestión de cobros, clientes, personal, tareas de mantenimiento y múltiples servicios webs basados en PHP 5, Mysql, HTML, CSS y Javascript, cumpliendo con normativa PCI-DSS. Intengrando pasarela de pagos REDSYS mediante WebService. Rediseño de la web corporativa y desarrollo de la intranet de la empresa.",
             "fechas" : "2010 - 2018"
         },
         "1" : {
-            "empresa" : "Freelance",
-            "cargo" : "Programador y Maquetador Web",
+            "titulo" : "Freelance",
+            "name" : "Programador y Maquetador Web",
             "info"  : "Varios trabajos como programador web para estudio de Pamplona y como diseñador y programador web para otras empresas canarias. Trabajando sobre tecnología PHP 5, HTML, CSS y JavaScript.",
             "fechas" : "2008 - 2014"
         }         
@@ -73,13 +73,13 @@
     "formacion" : {
         "0" : {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
-            "centro" : "C.I.F.P. César Manrique",
+            "name" : "C.I.F.P. César Manrique",
             "fechas" : "2015 - 2018",
             "info" : "Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos. JAVA SE, PHP, XNL, CSS, FTP, DNS."
         },
         "1" : {
             "titulo" : "Licenciado en Bellas Artes",
-            "centro" : "U.L.L.",
+            "name" : "U.L.L.",
             "fechas" : "2000 - 2005",
             "info" : "Cursando el itinerario de Diseño Gráfico."
         }
@@ -87,23 +87,27 @@
     "cursos" : {
         "0" : {
             "titulo" : "Introducción a Vue.JS",
-            "centro" : "Fundación General de la Universidad de La Laguna"
+            "name" : "Fundación General de la Universidad de La Laguna",
+            "info"  : "Nociones básicas para utilizar el Framework VueJS"
         },
         "1" : {
-            "titulo" : "rogramación con JavaScript",
-            "centro" : "Fundación General de la Universidad de La Laguna"
+            "titulo" : "Programación con JavaScript",
+            "name" : "Fundación General de la Universidad de La Laguna",
+            "info" : "Adquirir la base y conocimientos necesarios para dominar el lenguaje de programación web Javascript en la parte del cliente."
         },
         "2" : {
             "titulo" : "Crear un API RESTful con Slim PHP y usarla con AJAX",
-            "centro" : "Udemy"
+            "name" : "Udemy"
         },
         "3" : {
             "titulo" : "Aprende a programar aplicaciones Móviles",
-            "centro" : "Miríadax"
+            "name" : "Miríadax",
+            "info" : "Aplicaciones móviles híbridas con PrhoneGap, HTML, CSS y JavaScript."
         },
         "4" : {
             "titulo" : "En Proceso: Máster JAVA SE8",
-            "centro" : "Intecssa"
+            "name" : "Intecssa",
+            "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
         }
     },
     "aficiones" : "La Música, La guitarra, el bajo, la batería, el cine, las series, la tecnología, los cachivaches, las ofertas de pccomponentes y el chocolate."
