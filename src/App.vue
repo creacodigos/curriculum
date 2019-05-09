@@ -26,8 +26,6 @@ export default {
 </script>
 
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400");
-  @import url("https://fonts.googleapis.com/css?family=Marvel:400,700");
   @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,500,700");
   @import url("./assets/css/reset.css");
   @import url("./assets/css/style.css");
