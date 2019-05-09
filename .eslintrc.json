@@ -16,7 +16,9 @@
     "sourceType": "module"
   },
   "plugins": [
-    "vue"
+    "vue",
+    "css",
+    "html"
   ],
   "rules": {
     "indent": ["error", "tab"],
