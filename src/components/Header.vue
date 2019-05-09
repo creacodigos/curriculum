@@ -3,15 +3,20 @@
     <div class="ok">
       <i class="fas fa-thumbs-up"></i>
     </div>
-    <h1>Jorge Santana</h1>
+    <h1>{{ datos.nombre }}</h1>
     <h2 class="fino">
-      Web Developer
+      {{ datos.cargo }}
     </h2>
   </header>
 </template>
 
 <script>
 export default {
-	name: 'CrHeader'
+	name: 'CrHeader',
+    data() {
+        return {
+            datos: this.$parent.datos.datos
+        }
+    }
 }
 </script>

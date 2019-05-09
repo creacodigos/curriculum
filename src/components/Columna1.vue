@@ -1,16 +1,17 @@
 <template>
   <div class="one">
+
     <section aria-labelledby="datos">
       <article>
-        <img src="/assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
+        <img :src= `/assets/img/${datos.datos.image}` alt="Foto Jorge Santana">
       </article>
       <article>
         <div>
           <ul>
-            <li><strong><i class="fas fa-envelope"></i>EMAIL:</strong> <a href="mailto:jorgesantanarodriguez@gmail.com">jorgesantanarodriguez@gmail.com</a></li>
-            <li><strong><i class="fas fa-baby-carriage"></i>HIJO:</strong> <a href="http://muscana.com" target="_blank" title="Portal de Músicos Canarios">Muscana.com</a></li>
-            <li><strong><i class="fas fa-robot"></i>WEB:</strong> <a href="http://creacodigos.com">creacodigos.com</a></li>
-            <li><strong><i class="fab fa-linkedin"></i>LINKEDIN:</strong> <a href="https://www.linkedin.com/in/jorgesantanarodriguez/" target="_blank">jorgesantanarodriguez</a></li>
+            <li><strong><i class="fas fa-envelope"></i>EMAIL:</strong> <a :href=`mailto:${datos.datos.email}`>{{ datos.datos.email }}</a></li>
+            <li><strong><i class="fas fa-baby-carriage"></i>HIJO:</strong> <a :href=`${datos.datos.hijo}` target="_blank" title="Portal de Músicos Canarios">{{ datos.datos.hijo }}</a></li>
+            <li><strong><i class="fas fa-robot"></i>WEB:</strong> <a :href=`${datos.datos.url}`>{{ datos.datos.url }}</a></li>
+            <li><strong><i class="fab fa-linkedin"></i>LINKEDIN:</strong> <a :href=`https://www.linkedin.com/in/${datos.datos.linkedin}/` target="_blank">{{ datos.datos.linkedin }}</a></li>
           </ul>
         </div>
       </article>
@@ -22,18 +23,11 @@
         </h4>
         <div>
           <ul>
-            <li><strong>PHP 5:</strong> <meter min="0" max="100" value="80"></meter></li>
-            <li><strong>MYSQL:</strong> <meter min="0" max="100" value="75"></meter></li>
-            <li><strong>HTML, CSS:</strong> <meter min="0" max="100" value="90"></meter></li>
-            <li><strong>HTML5, CSS3:</strong> <meter min="0" max="100" value="75"></meter></li>
-            <li><strong>JAVASCRIPT:</strong> <meter min="0" max="100" value="60"></meter></li>
-            <li><strong>GIT:</strong> <meter min="0" max="100" value="40"></meter></li>
-
-            <li><strong>VUE:</strong> <meter min="0" max="100" value="40"></meter></li>
-            <li><strong>JQUERY:</strong> <meter min="0" max="100" value="50"></meter></li>
-            <li><strong>NPM:</strong> <meter min="0" max="100" value="30"></meter></li>
-            <li><strong>Apache:</strong> <meter min="0" max="100" value="60"></meter></li>
-            <li><strong>GESTIÓN DNS:</strong> <meter min="0" max="100" value="90"></meter></li>
+            <cr-habilidad v-for="(e,i) in datos.habilidades"
+                :key="i" 
+                :numid="i" 
+                :habilidad="e">
+            </cr-habilidad>
           </ul>
         </div>
       </article>
@@ -42,7 +36,16 @@
 </template>
 
 <script>
+import Habilidad from './Habilidad';
 export default {
-	name: 'Columna1'
+    name: 'Columna1',
+    components: {
+        'cr-habilidad': Habilidad
+    },
+    data() {
+        return {
+            datos: this.$parent.$parent.datos
+        }
+    }
 }
 </script>
