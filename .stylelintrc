@@ -2,7 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "selector-nested-pattern": "^&",
-    "indentation": 2,
+    "indentation": tab,
     "no-descending-specificity": null,
     "no-eol-whitespace": null,
     "declaration-empty-line-before": null
