@@ -143,11 +143,18 @@ pre{
 
 }
 
-.wrapper img {
+#foto{
+    padding:1em;
+    border-radius: 50%;
+    display: block;
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    margin: 1em auto;
+}
+
+#foto img {
     width        : 100%;
     border-radius: 50%;
-    margin: 1em auto;
-    display: block;
+    border: 0.5em solid #FFF;
 }
 
 
@@ -181,7 +188,7 @@ section {
     padding         : 0.5em;
     margin-bottom   : 0.5em;
     text-transform  : uppercase;
-    border-radius   : 2px;
+    border-radius   : 3px;
 }
 
 .titulo:hover{
@@ -276,8 +283,8 @@ section {
         padding: 0;
     }
 
-    .wrapper img {
-        width : 90%;
+    .one article:first-child{
+        padding: 1em 1em 0.1em 1em;
     }
 
     .one {
@@ -297,6 +304,6 @@ section {
     }
   
     .one {
-        margin:0 auto;
+        margin:-1em auto 0 auto;
     }  
 }

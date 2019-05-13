@@ -3,7 +3,9 @@
 
     <section aria-labelledby="datos">
       <article>
-        <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
+        <div id="foto">
+          <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
+        </div>
       </article>
       <article>
         <div>
