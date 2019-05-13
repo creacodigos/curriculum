@@ -17,10 +17,10 @@
       </article>
     </section>
 
-    <section aria-labelledby="Cursos no reglados">
+    <section aria-labelledby="Cursos">
       <article>
         <h4 class="titulo">
-          <i class="fas fa-chalkboard-teacher"></i>Cursos no reglados
+          <i class="fas fa-chalkboard-teacher"></i>Cursos
         </h4>
         <div>
           <ul>
