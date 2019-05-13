@@ -102,7 +102,7 @@ a{
     color                : #284d9e;
 }
 img{
-    transition      : all 0.3s ease-in-out;
+    /*transition      : all 0.3s ease-in-out;*/
 }
 
 i{
@@ -159,7 +159,9 @@ pre{
 
 
 .wrapper img:hover {
-    filter       : blur(2px);
+    /*filter       : blur(2px);*/
+    transition      : all 0.2s ease-in-out;
+    transform:rotate(360deg);
 }
 
 .wrapper article div {
