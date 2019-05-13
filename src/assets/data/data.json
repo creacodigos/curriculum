@@ -11,11 +11,11 @@
     "habilidades": {
         "0" : {
             "name" : "PHP",
-            "valor" : 80
+            "valor" : 85
         },
         "1" : {
             "name" : "MYSQL",
-            "valor" : 75
+            "valor" : 80
         },
         "2" : {
             "name" : "HTML, CSS",
@@ -23,7 +23,7 @@
         },
         "3" : {
             "name" : "HTML5, CSS3",
-            "valor" : 75
+            "valor" : 70
         },
         "4" : {
             "name" : "JAVASCRIPT",
@@ -31,7 +31,7 @@
         },
         "5" : {
             "name" : "GIT",
-            "valor" : 40
+            "valor" : 30
         },
         "6" : {
             "name" : "VUE",
@@ -39,11 +39,11 @@
         },
         "7" : {
             "name" : "JQUERY",
-            "valor" : 50
+            "valor" : 60
         },
         "8" : {
             "name" : "NPM",
-            "valor" : 30
+            "valor" : 20
         },
         "9" : {
             "name" : "Apache",
@@ -110,5 +110,5 @@
             "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
         }
     },
-    "aficiones" : "La Música, La guitarra, el bajo, la batería, el cine, las series, la tecnología, los cachivaches, las ofertas de pccomponentes y el chocolate."
+    "aficiones" : "Hago mucho ruido, me apasiona la Música, La guitarra, el bajo, la batería, el cine, las series, la tecnología, los cachivaches, las ofertas de pccomponentes y el chocolate."
 }
