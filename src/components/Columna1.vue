@@ -2,8 +2,8 @@
   <div class="one">
 
     <section aria-labelledby="datos">
-      <article>
-        <div id="foto">
+      <article id="foto">
+        <div>
           <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
         </div>
       </article>

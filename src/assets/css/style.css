@@ -143,7 +143,7 @@ pre{
 
 }
 
-#foto{
+#foto div {
     padding:1em;
     border-radius: 50%;
     display: block;
@@ -158,7 +158,7 @@ pre{
 }
 
 
-.wrapper img:hover {
+#foto img:hover {
     /*filter       : blur(2px);*/
     transition      : all 0.2s ease-in-out;
     transform:rotate(360deg);
@@ -285,12 +285,13 @@ section {
         padding: 0;
     }
 
-    .one article:first-child{
-        padding: 1em 1em 0.1em 1em;
-    }
-
     .one {
         margin:0;
+    }
+
+    #foto {
+        padding: 1em;
+        padding-bottom: 0em;
     }
 }
 
