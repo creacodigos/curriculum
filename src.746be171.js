@@ -35,4 +35,4 @@ module.exports={datos:{nombre:"Jorge Santana",cargo:"Web Developer",image:"jorge
 },{"./components/Header":"K/mD","./components/Nav":"QICo","./components/Main":"bp+g","./components/Footer":"IeFb","./assets/data/data.json":"7cQT","./assets/css/reset.css":"mFur","./assets/css/style.css":"mFur"}],"Focm":[function(require,module,exports) {
 "use strict";var e=r(require("vue")),u=r(require("./App.vue"));function r(e){return e&&e.__esModule?e:{default:e}}new e.default({render:function(e){return e(u.default)}}).$mount("#app");
 },{"vue":"QPfz","./App.vue":"Js2s"}]},{},["Focm"], "global")
-//# sourceMappingURL=/curriculum-vue/src.2cdf926d.map
+//# sourceMappingURL=/curriculum-vue/src.746be171.map
