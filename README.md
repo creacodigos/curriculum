@@ -10,7 +10,6 @@ URL: http://creacodigos.com
 Info JSON importada con AXIOS
 
   ```js
-  código js
 
 import axios from 'axios'
 
@@ -23,7 +22,7 @@ export default {
   },
   methods: {
     leerDatos(){
-      axios.get('http://creacodigos.com/data/data.json')
+      axios.get('https://creacodigos.com/data/data.json')
         .then(response => {
           console.log(response.data);
           this.datos = response.data;
