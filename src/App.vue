@@ -26,8 +26,7 @@ export default {
   },
   data() {
     return {
-      datos: [],
-      data: data
+      datos: []
     };
   },
   methods: {
