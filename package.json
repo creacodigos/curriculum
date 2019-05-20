@@ -38,8 +38,8 @@
   "homepage": "https://github.com/creacodigos/curriculum#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
     "@vue/component-compiler-utils": "^2.6.0",
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "assets": "^3.0.1",
+    "axios": "^0.18.0",
     "vue": "^2.6.10"
   }
 }
