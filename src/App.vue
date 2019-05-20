@@ -12,9 +12,8 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-//import data from './assets/data/data.json';
-//import data from 'http://creacodigos.com/data/data.json';
-import axios from 'axios'
+import data from './assets/data/data.json';
+//import axios from 'axios'
 
 export default {
 	name: 'App',
@@ -26,9 +25,11 @@ export default {
   },
   data() {
     return {
-      datos: []
+      //datos: []
+      datos: data
     };
-  },
+  }
+  /*,
   methods: {
     leerDatos(){
       axios.get('https://creacodigos.com/data/data.json')
@@ -45,6 +46,7 @@ export default {
       // Fetch Data
       this.leerDatos();
     }
+    */
 };
 </script>
 
