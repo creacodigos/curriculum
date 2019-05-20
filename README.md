@@ -11,6 +11,6 @@ Info JSON importada con AXIOS
 
   ```js
   código js
-  ``
+  ```
 
 ## Service Worker ##
