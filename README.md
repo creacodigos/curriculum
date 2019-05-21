@@ -5,7 +5,10 @@
 URL: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
 
 :page_facing_up: JSON DATA: https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json
+
 :page_facing_up: JSON DATA: https://creacodigos.com/data/data.json
+
+:globe_with_meridians: https://creacodigos.com
 
 ## Axios ##
 
