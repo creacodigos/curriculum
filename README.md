@@ -2,7 +2,7 @@
 
 **:rocket: Creando página con curriculum para proyecto vue.JS**
 
-:mag: URL: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
+:mag: Axios Vue: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
 
 :page_facing_up: JSON DATA: https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json
 
