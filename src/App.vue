@@ -35,7 +35,7 @@ export default {
     leerDatos() {
       axios.get('https://creacodigos.com/data/data.json')
           .then(response => {
-            console.log(response.data)
+            //console.log(response.data)
             this.datos = response.data
           })
           .catch(error => {
