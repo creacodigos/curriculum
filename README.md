@@ -76,4 +76,49 @@ methods: {
     }
   }
 ```
+
+## Usando Filtros en Webcomponentes
+
+`this.$options.filters.nombreFiltro(parámetros)`
+
+```js
+<pre v-html="this.$options.filters.crearEnlaces(datos.perfil)">
+</pre>
+
+...
+    filters: {
+      crearEnlaces : texto => {
+        
+        // Funcion que reemplaza los enlaces planos por enlaces html function url_replace(text) {     
+        // Reemplazamos url que inicie con http://, https://, ftp://, file://     
+
+        let exp = /((http:|https:|ftp:|file:)[^\s]+[\w])/g; 
+        let texto2 = texto.replace(exp, '<a href="$1" target="_blank" rel="nofollow">$1</a>');  
+        return texto2;
+          
+      }
+    },
+...
+```
+
+## Usando Métodos en Webcomponentes
+
+`this.$options.methods.nombreMétodo(parámetros)`
+
+```js
+<pre v-html="this.$options.methods.nl2br(datos.perfil)">
+</pre>
+
+...
+methods: {
+      nl2br : function(str) {
+        if (typeof str === 'undefined' || str === null) {
+            return '';
+        }
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2');
+      }
+    }
+...
+```
+
 :see_no_evil:
