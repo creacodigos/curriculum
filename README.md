@@ -3,11 +3,14 @@
 
 Creando página con curriculum para proyecto vue.JS
 
-URL: http://creacodigos.com
+URL: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
+JSON DATA: https://creacodigos.com/data/data.json
 
 ## Axios ##
 
 Info JSON importada con AXIOS
+
+App.vue:
 
   ```js
 
@@ -33,11 +36,22 @@ export default {
       }
     },
     created: function() {
-      // lerr Datos
       this.leerDatos();
     }
 };
 ...
   ```
+
+Componente.vue:
+
+```js
+export default {
+  ...
+    data() {
+        return this.$parent
+    }
+...
+}
+```
 
 ## Service Worker ##
