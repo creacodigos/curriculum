@@ -17,6 +17,9 @@ export default {
 		'cr-columna-1': Columna1,
 		'cr-columna-2': Columna2,
 		'cr-columna-3': Columna3
+	},
+	data() {
+			return this.$parent
 	}
 }
 </script>

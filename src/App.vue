@@ -12,42 +12,39 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import data from './assets/data/data.json';
-//import axios from 'axios'
+//import data from './assets/data/data.json';
+import axios from 'axios'
 
 export default {
-	name: 'App',
-	components: {
-		'cr-header': Header,
-		'cr-nav': Nav,
-		'cr-main': Main,
-		'cr-footer': Footer
+    name: 'App',
+    components: {
+    'cr-header': Header,
+    'cr-nav': Nav,
+    'cr-main': Main,
+    'cr-footer': Footer
   },
   data() {
     return {
-      //datos: []
-      datos: data
-    };
-  }
-  /*,
-  methods: {
-    leerDatos(){
-      axios.get('https://creacodigos.com/data/data.json')
-        .then(response => {
-          console.log(response.data);
-          this.datos = response.data;
-        })
-        .catch(function(error) {
-          console.log('ERROR: '+ error);
-        });
-      }
-    },
-    created: function() {
-      // Fetch Data
-      this.leerDatos();
+      datos: []
     }
-    */
-};
+  },
+  created () {
+    this.leerDatos();
+  },
+  methods: {
+    leerDatos() {
+      axios.get('https://creacodigos.com/data/data.json')
+          .then(response => {
+            console.log(response.data)
+            this.datos = response.data
+          })
+          .catch(error => {
+            console.log('ERROR: '+ error)
+          });
+    }
+  }
+
+}
 </script>
 
 <style>

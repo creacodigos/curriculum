@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div>
-      {{ nombre }} - @creacodigos 
+      {{ datos.datos.nombre }} - @creacodigos 
     </div>
   </footer>    
 </template>
@@ -9,10 +9,8 @@
 <script>
 export default {
 	name: 'CrFooter',
-    data() {
-        return {
-            nombre: this.$parent.datos.datos.nombre
-        }
-    }
+  data() {
+      return this.$parent
+  }
 }
 </script>

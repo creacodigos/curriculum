@@ -51,9 +51,7 @@ export default {
         'cr-listado': Listado
     },
     data() {
-        return {
-            datos: this.$parent.$parent.datos
-        }
+        return this.$parent.$parent
     }
 }
 </script>
