@@ -61,7 +61,7 @@ export default {
 
         let exp = /((http:|https:|ftp:|file:)[^\s]+[\w])/g; 
         let texto2 = texto.replace(exp, '<a href="$1" target="_blank" rel="nofollow">$1</a>');  
-        //texto2 = (texto2 + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2');
+         //texto2 = (texto2 + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2');
         return texto2;
           
       }
