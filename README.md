@@ -1,4 +1,4 @@
-#:pencil: Curriculum vitae con framework Javascrit
+# :pencil: Curriculum vitae con framework Javascrit
 
 **:rocket: Creando página con curriculum para proyecto vue.JS**
 
