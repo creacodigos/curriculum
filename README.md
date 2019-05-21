@@ -1,10 +1,10 @@
-## Curriculum vitae con framework Javascrit
+#:pencil: Curriculum vitae con framework Javascrit
 
-Creando página con curriculum para proyecto vue.JS
+**:rocket: Creando página con curriculum para proyecto vue.JS**
 
 URL: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
 
-JSON DATA: https://creacodigos.com/data/data.json
+:page_facing_up: JSON DATA: https://creacodigos.com/data/data.json
 
 ## Axios ##
 
@@ -72,3 +72,4 @@ methods: {
     }
   }
 ```
+:see_no_evil:
