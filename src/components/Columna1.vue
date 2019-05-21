@@ -3,7 +3,7 @@
 
     <section aria-labelledby="datos">
       <article id="foto">
-        <div>
+        <div :title=`${datos.datos.nombre}`>
           <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
         </div>
       </article>
