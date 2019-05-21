@@ -121,4 +121,8 @@ methods: {
 ...
 ```
 
-:see_no_evil:
+## Usando Filtro y Métodos en Webcomponente
+
+`this.$options.filters.nombreFiltro(this.$options.methods.nombreMétodo(parámetro))`
+
+# :see_no_evil:
