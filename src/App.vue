@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-cloak>
     <cr-header></cr-header>
     <cr-nav></cr-nav>
     <cr-main></cr-main>
@@ -26,7 +26,8 @@ export default {
   data() {
     return {
       datos: [],
-      api : 'https://creacodigos.com/data/data.json'
+      //api : 'https://creacodigos.com/data/data.json',
+      api : 'https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json'
     }
   },
   created () {
