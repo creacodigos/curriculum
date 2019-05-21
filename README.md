@@ -4,6 +4,7 @@
 Creando página con curriculum para proyecto vue.JS
 
 URL: https://github.com/vuejs/vuejs.org/blob/master/src/v2/cookbook/using-axios-to-consume-apis.md
+
 JSON DATA: https://creacodigos.com/data/data.json
 
 ## Axios ##
@@ -72,5 +73,3 @@ methods: {
     }
   }
 ```
-
-## Service Worker ##
