@@ -44,7 +44,7 @@ export default {
       fetch(this.api)
           .then(response => response.json())
           .then(data => {
-            console.log(data)
+            //console.log(data)
             this.datos = data
           })
           .catch(error => {
