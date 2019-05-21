@@ -6,8 +6,7 @@
           <i class="fas fa-user-circle"></i>Perfil
         </h4>
         <div>
-            <pre>
-                {{ datos.perfil }}
+            <pre v-html="this.$options.filters.crearEnlaces(datos.perfil)">
             </pre>
         </div>
       </article>
@@ -52,6 +51,28 @@ export default {
     },
     data() {
         return this.$parent.$parent
+    }
+    ,
+    filters: {
+      crearEnlaces : texto => {
+        
+        // Funcion que reemplaza los enlaces planos por enlaces html function url_replace(text) {     
+        // Reemplazamos url que inicie con http://, https://, ftp://, file://     
+
+        let exp = /((http:|https:|ftp:|file:)[^\s]+[\w])/g; 
+        let texto2 = texto.replace(exp, '<a href="$1" target="_blank" rel="nofollow">$1</a>');  
+        //texto2 = (texto2 + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2');
+        return texto2;
+          
+      }
+    },
+    methods: {
+      nl2br : function(str) {
+        if (typeof str === 'undefined' || str === null) {
+            return '';
+        }
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1 <br> $2');
+      }
     }
 }
 </script>
