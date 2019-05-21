@@ -20,12 +20,13 @@ export default {
 	...
   data() {
     return {
-      datos: []
+      datos: [],
+      api : 'https://creacodigos.com/data/data.json'
     };
   },
   methods: {
     leerDatos(){
-      axios.get('https://creacodigos.com/data/data.json')
+      axios.get(this.api)
         .then(response => {
           console.log(response.data);
           this.datos = response.data;
@@ -52,6 +53,24 @@ export default {
     }
 ...
 }
+```
+
+## Alternativa nativa FETCH ##
+
+```js
+methods: {
+    leerDatos() {
+      fetch(this.api)
+          .then(response => response.json())
+          .then(data => {
+            console.log(data)
+            this.datos = data
+          })
+          .catch(error => {
+            console.error('ERROR: '+ error)
+          });
+    }
+  }
 ```
 
 ## Service Worker ##

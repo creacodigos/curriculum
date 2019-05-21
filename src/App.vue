@@ -13,7 +13,7 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
 //import data from './assets/data/data.json';
-import axios from 'axios'
+//import axios from 'axios'
 
 export default {
     name: 'App',
@@ -25,7 +25,8 @@ export default {
   },
   data() {
     return {
-      datos: []
+      datos: [],
+      api : 'https://creacodigos.com/data/data.json'
     }
   },
   created () {
@@ -33,13 +34,21 @@ export default {
   },
   methods: {
     leerDatos() {
-      axios.get('https://creacodigos.com/data/data.json')
-          .then(response => {
-            //console.log(response.data)
-            this.datos = response.data
+      /*
+      axios.get(this.api)
+        .then(response => {
+          console.log(response.data);
+          this.datos = response.data;
+        })
+      */
+      fetch(this.api)
+          .then(response => response.json())
+          .then(data => {
+            console.log(data)
+            this.datos = data
           })
           .catch(error => {
-            console.log('ERROR: '+ error)
+            console.error('ERROR: '+ error)
           });
     }
   }
