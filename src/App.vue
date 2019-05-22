@@ -1,7 +1,8 @@
 <template>
   <div id="app" v-cloak>
     <section v-if="errored">
-      <p>We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
+      <p>Ouchh...!! Algo ha fallado de forma inesperada.<br>
+      Por favor, inténtalo más tarde</p>
     </section>
     <section class="content" v-else>
       <div v-if="loading" id="loading">
@@ -24,8 +25,6 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
-//import data from './assets/data/data.json';
-//import axios from 'axios'
 
 export default {
     name: 'App',
@@ -38,7 +37,6 @@ export default {
   data() {
     return {
       datos: [],
-      //api : 'https://creacodigos.com/data/data.json',
       api : 'https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json',
       loading: true,
       errored: false
@@ -49,24 +47,17 @@ export default {
   },
   methods: {
     leerDatos() {
-      /*
-      axios.get(this.api)
-        .then(response => {
-          console.log(response.data);
-          this.datos = response.data;
-        })
-      */
       fetch(this.api)
-          .then(response => response.json())
-          .then(data => {
-            //console.log(data)
-            this.datos = data
-            this.loading = false
-          })
-          .catch(error => {
-            console.error('ERROR: '+ error)
-            this.loading = true
-          })
+        .then(response => response.json())
+        .then(data => {
+          //console.log(data)
+          this.datos = data
+          this.loading = false
+        })
+        .catch(error => {
+          console.error('ERROR: '+ error)
+          this.loading = true
+        })
     }
   }
 
@@ -77,6 +68,4 @@ export default {
   @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,500,700");
   @import url("./assets/css/reset.css");
   @import url("./assets/css/style.css");
-
-
 </style>

@@ -162,8 +162,7 @@ pre{
 
 #foto img:hover {
     /*filter       : blur(2px);*/
-    transition      : all 0.2s ease-in-out;
-    transform:rotate(360deg);
+    animation: giro 0.5s infinite linear;
 }
 
 .wrapper article div {
