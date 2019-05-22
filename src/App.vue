@@ -1,9 +1,21 @@
 <template>
   <div id="app" v-cloak>
-    <cr-header></cr-header>
-    <cr-nav></cr-nav>
-    <cr-main></cr-main>
-    <cr-footer></cr-footer>
+    <section v-if="errored">
+      <p>We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
+    </section>
+    <section class="content" v-else>
+      <div v-if="loading" id="loading">
+        <i class="fas fa-sync"></i>
+      </div>
+
+      <section class="content" v-else>        
+        <cr-header></cr-header>
+        <cr-nav></cr-nav>
+        <cr-main></cr-main>
+        <cr-footer></cr-footer>
+      </section>
+
+    </section>
   </div>
 </template>
 
@@ -27,11 +39,13 @@ export default {
     return {
       datos: [],
       //api : 'https://creacodigos.com/data/data.json',
-      api : 'https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json'
+      api : 'https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json',
+      loading: true,
+      errored: false
     }
   },
   created () {
-    this.leerDatos();
+    setTimeout(() => this.leerDatos(), 500);
   },
   methods: {
     leerDatos() {
@@ -47,10 +61,12 @@ export default {
           .then(data => {
             //console.log(data)
             this.datos = data
+            this.loading = false
           })
           .catch(error => {
             console.error('ERROR: '+ error)
-          });
+            this.loading = true
+          })
     }
   }
 
@@ -61,4 +77,6 @@ export default {
   @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,500,700");
   @import url("./assets/css/reset.css");
   @import url("./assets/css/style.css");
+
+
 </style>
