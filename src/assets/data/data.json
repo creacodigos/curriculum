@@ -54,7 +54,7 @@
             "valor" : 90
         }
     },
-    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS.\n\n A veces Full Stack Developer, otras Analista Programador, otras Diseñador Web, otras Programador PHP.\n\nHe programado bajo entornos  seguros PCI-DSS, con Programación imperativa y practicando MVC. He desempeñado funciones de Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico... Pero, lo que más me gusta, es pelearme con el código para que haga lo quiero de la forma más elegante posible (cuando me lo permiten), eso y la música... todo lo hago con música.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com.\n\nMe siento cómodo en back-end sobre lenguaje PHP.\n\n Actualmente estoy en proceso de aprendizado estudiando las nuevas virtudes de JavaScript, afianzando los patrones de diseño y poniéndome al día con frameworks como Vue o Laravel.",
+    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS.\n\n A veces Full Stack Developer, otras Analista Programador, otras Diseñador Web, otras Programador PHP.\n\nHe programado bajo entornos  seguros PCI-DSS, con Programación imperativa y practicando MVC. He desempeñado funciones de Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico... Pero, lo que más me gusta, es pelearme con el código para que haga lo quiero de la forma más elegante posible (cuando me lo permiten), eso y la música... todo lo hago con música.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com.\n\nMe siento más cómodo en back-end sobre PHP que en front-end sobre Javascript, pero mi formación artística me impide alejarme del mundo del diseño, la usabilidad y las 'cosas bonitas'\n\nActualmente estoy en proceso de aprendizaje estudiando las nuevas virtudes de JavaScript y sus infinitas posibilidades, afianzando los patrones de diseño y poniéndome al día con frameworks como Vue o Laravel.",
     "experiencia" : {
         "0" : {
             "titulo" : "Alejada SL",
@@ -81,7 +81,7 @@
             "titulo" : "Licenciado en Bellas Artes",
             "name" : "U.L.L.",
             "fechas" : "2000 - 2005",
-            "info" : "Cursando el itinerario de Diseño Gráfico."
+            "info" : "Especializado en Diseño Gráfico."
         }
     },
     "cursos" : {
