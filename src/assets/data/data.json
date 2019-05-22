@@ -75,7 +75,7 @@
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
             "name" : "C.I.F.P. César Manrique",
             "fechas" : "2015 - 2018",
-            "info" : "Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos. JAVA SE, PHP, XNL, CSS, FTP, DNS."
+            "info" : "JAVA SE, SQL, PHP, UML, XML, HTML, CSS, FTP, DNS."
         },
         "1" : {
             "titulo" : "Licenciado en Bellas Artes",
@@ -93,7 +93,7 @@
         "1" : {
             "titulo" : "Programación con JavaScript",
             "name" : "Fundación General de la Universidad de La Laguna",
-            "info" : "Adquirir la base y conocimientos necesarios para dominar el lenguaje de programación web Javascript en la parte del cliente."
+            "info" : "Introducción al lenguaje de programación web Javascript en la parte del cliente."
         },
         "2" : {
             "titulo" : "Crear un API RESTful con Slim PHP y usarla con AJAX",
