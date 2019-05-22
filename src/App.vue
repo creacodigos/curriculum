@@ -43,7 +43,7 @@ export default {
     }
   },
   created () {
-    setTimeout(() => this.leerDatos(), 500);
+    this.leerDatos()
   },
   methods: {
     leerDatos() {
@@ -52,7 +52,7 @@ export default {
         .then(data => {
           //console.log(data)
           this.datos = data
-          this.loading = false
+          setTimeout(() => this.loading = false, 500);
         })
         .catch(error => {
           console.error('ERROR: '+ error)
