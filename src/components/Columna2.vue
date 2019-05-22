@@ -26,19 +26,7 @@
           </ul>
         </div>
       </article>
-    </section>
-    <section aria-labelledby="tecnologias empleadas">
-      <article>
-        <h4 class="titulo">
-          <i class="fas fa-laptop-code"></i>Tecnologías Empleadas
-        </h4>
-        <div>
-          <p>
-            {{ datos.tecnologias }}
-          </p>
-        </div>
-      </article>
-    </section>                   
+    </section>                 
   </div>
 </template>
 
