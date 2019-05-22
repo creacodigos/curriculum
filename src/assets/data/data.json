@@ -99,26 +99,26 @@
     "cursos" : {
         "0" : {
             "titulo" : "Introducción a Vue.JS",
-            "name" : "Fundación General de la Universidad de La Laguna",
+            "name" : "",
             "info"  : "Nociones básicas para utilizar el Framework VueJS"
         },
         "1" : {
             "titulo" : "Programación con JavaScript",
-            "name" : "Fundación General de la Universidad de La Laguna",
+            "name" : "",
             "info" : "Introducción al lenguaje de programación web Javascript en la parte del cliente."
         },
         "2" : {
             "titulo" : "Crear un API RESTful con Slim PHP y usarla con AJAX",
-            "name" : "Udemy"
+            "name" : ""
         },
         "3" : {
             "titulo" : "Aprende a programar aplicaciones Móviles",
-            "name" : "Miríadax",
+            "name" : "",
             "info" : "Aplicaciones móviles híbridas con PrhoneGap, HTML, CSS y JavaScript."
         },
         "4" : {
             "titulo" : "En Proceso: Máster JAVA SE8",
-            "name" : "Intecssa",
+            "name" : "",
             "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
         }
     },
