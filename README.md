@@ -125,4 +125,44 @@ methods: {
 
 `this.$options.filters.nombreFiltro(this.$options.methods.nombreMétodo(parámetro))`
 
+## Service Worker
+https://dev.to/sarmis/single-page-progressive-web-applications-with-vue-js-2op8
+
+`<link rel="manifest" href="./manifest.webmanifest">`
+
+```js
+<script src="./index.js"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }            
+</script>
+```
+
+**Imprtante extensión `.webmanifest` para compatibilidad coon PARCEL
+
+`./src/web/service-worker.js`
+Se define que use primero la estrategia de red para permitir uso offline de la caché.
+
+```js
+console.log("service-worker.js")
+// import service worker script
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js');
+
+// Network First
+[ 
+    '/$',  // Index 
+    '/*',  // Anything in the same host
+    '.+/*' // Anything in any host 
+]
+.forEach(mask => {
+    workbox.routing.registerRoute(
+        new RegExp(mask),
+        new workbox.strategies.NetworkFirst( { cacheName: 'dynamic' } ) 
+    );
+});
+```
+
 # :see_no_evil:
