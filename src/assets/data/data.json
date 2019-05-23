@@ -27,15 +27,15 @@
         },
         "4" : {
             "name" : "JAVASCRIPT",
-            "valor" : 60
+            "valor" : 50
         },
         "5" : {
             "name" : "GIT",
-            "valor" : 30
+            "valor" : 25
         },
         "6" : {
             "name" : "VUE",
-            "valor" : 40
+            "valor" : 20
         },
         "7" : {
             "name" : "JQUERY",
@@ -51,7 +51,7 @@
         },
         "10" : {
             "name" : "Gestion DNS",
-            "valor" : 90
+            "valor" : 80
         },
         "11" : {
             "name" : "SEO",
