@@ -47,7 +47,7 @@
         },
         "9" : {
             "name" : "Apache",
-            "valor" : 60
+            "valor" : 25
         },
         "10" : {
             "name" : "Gestion DNS",
