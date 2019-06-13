@@ -3,9 +3,9 @@
         "nombre" : "Jorge Santana",
         "cargo" : "Web Developer",
         "image" : "jorge_santana.jpg",
-        "url" : "http://creacodigos.com",
+        "url" : "https://creacodigos.com",
         "email" : "jorgesantanarodriguez@gmail.com",
-        "hijo" : "http://muscana.com",
+        "hijo" : "https://muscana.com",
         "linkedin" : "jorgesantanarodriguez"
     }, 
     "habilidades": {
