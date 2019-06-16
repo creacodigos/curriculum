@@ -165,4 +165,17 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox
 });
 ```
 
+## Analytics en index.html
+
+```js
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());  
+    gtag('config', 'UA-XXXXXXXXX-1');
+  </script>
+```
+
 # :see_no_evil:
