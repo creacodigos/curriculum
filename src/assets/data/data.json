@@ -3,31 +3,31 @@
         "nombre" : "Jorge Santana",
         "cargo" : "Web Developer",
         "image" : "jorge_santana.jpg",
-        "url" : "http://creacodigos.com",
+        "url" : "https://creacodigos.com",
         "email" : "jorgesantanarodriguez@gmail.com",
-        "hijo" : "http://muscana.com",
+        "hijo" : "https://muscana.com",
         "linkedin" : "jorgesantanarodriguez"
     }, 
     "habilidades": {
         "0" : {
             "name" : "PHP",
-            "valor" : 85
+            "valor" : 80
         },
         "1" : {
             "name" : "MYSQL",
-            "valor" : 80
+            "valor" : 75
         },
         "2" : {
             "name" : "HTML, CSS",
-            "valor" : 90
+            "valor" : 85
         },
         "3" : {
             "name" : "HTML5, CSS3",
-            "valor" : 70
+            "valor" : 60
         },
         "4" : {
             "name" : "JAVASCRIPT",
-            "valor" : 50
+            "valor" : 45
         },
         "5" : {
             "name" : "GIT",
@@ -39,15 +39,15 @@
         },
         "7" : {
             "name" : "JQUERY",
-            "valor" : 60
+            "valor" : 50
         },
         "8" : {
             "name" : "NPM",
-            "valor" : 20
+            "valor" : 15
         },
         "9" : {
             "name" : "Apache",
-            "valor" : 60
+            "valor" : 25
         },
         "10" : {
             "name" : "Gestion DNS",
@@ -63,7 +63,7 @@
         },
         "13" : {
             "name" : "Diseño",
-            "valor" : 95
+            "valor" : 90
         }
     },
     "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS.\n\n A veces Full Stack Developer, otras Analista Programador, otras Diseñador Web, otras Programador PHP.\n\nHe programado bajo entornos  seguros PCI-DSS, con Programación imperativa y practicando MVC. He desempeñado funciones de Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico... Pero, lo que más me gusta, es pelearme con el código para que haga lo quiero de la forma más elegante posible (cuando me lo permiten), eso y la música... todo lo hago con música.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com.\n\nMe siento más cómodo en back-end sobre PHP que en front-end sobre Javascript, pero mi formación artística me impide alejarme del mundo del diseño, la usabilidad y las 'cosas bonitas'\n\nActualmente estoy en proceso de aprendizaje, estudiando las nuevas virtudes de JavaScript y sus infinitas posibilidades, afianzando los patrones de diseño y poniéndome al día con frameworks como Vue o Laravel.",
@@ -81,7 +81,7 @@
             "fechas" : "2008 - 2014"
         }         
     },
-    "tecnologias" : "PHP 5, Mysql, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, ES6, Ajax, Vue, React, JQuery, Apache, XML, WebService, JSON, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Laravel, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub.",
+    "tecnologias" : "PHP 5, Mysql, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, ES6, Ajax, Vue, React, JQuery, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Laravel, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare.",
     "formacion" : {
         "0" : {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
