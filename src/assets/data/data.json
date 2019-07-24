@@ -22,66 +22,62 @@
             "valor" : 85
         },
         "3" : {
-            "name" : "HTML5, CSS3",
-            "valor" : 60
-        },
-        "4" : {
             "name" : "JAVASCRIPT",
             "valor" : 45
         },
-        "5" : {
+        "4" : {
             "name" : "GIT",
             "valor" : 25
         },
-        "6" : {
+        "5" : {
             "name" : "VUE",
             "valor" : 20
         },
-        "7" : {
+        "6" : {
             "name" : "JQUERY",
             "valor" : 50
         },
-        "8" : {
+        "7" : {
             "name" : "NPM",
             "valor" : 15
         },
-        "9" : {
-            "name" : "Apache",
-            "valor" : 25
-        },
-        "10" : {
+        "8" : {
             "name" : "Gestion DNS",
             "valor" : 80
         },
-        "11" : {
+        "9" : {
             "name" : "SEO",
             "valor" : 75
         },
-        "12" : {
+        "10" : {
             "name" : "UI / UX",
             "valor" : 80
         },
-        "13" : {
+        "11" : {
             "name" : "Diseño",
             "valor" : 90
+        },
+        "12" : {
+            "name" : "Inglés",
+            "valor" : 20
         }
     },
-    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, JavaScript, y CSS.\n\n A veces Full Stack Developer, otras Analista Programador, otras Diseñador Web, otras Programador PHP.\n\nHe programado bajo entornos  seguros PCI-DSS, con Programación imperativa y practicando MVC. He desempeñado funciones de Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, Seo, Sem, Director creativo y Diseñador Gráfico... Pero, lo que más me gusta, es pelearme con el código para que haga lo quiero de la forma más elegante posible (cuando me lo permiten), eso y la música... todo lo hago con música.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com.\n\nMe siento más cómodo en back-end sobre PHP que en front-end sobre Javascript, pero mi formación artística me impide alejarme del mundo del diseño, la usabilidad y las 'cosas bonitas'\n\nActualmente estoy en proceso de aprendizaje, estudiando las nuevas virtudes de JavaScript y sus infinitas posibilidades, afianzando los patrones de diseño y poniéndome al día con frameworks como Vue o Laravel.",
+    "perfil" : "Desarrollador Web con más de 10 años de experiencia en PHP, MySQL, HTML, CSS y JavaScript y más de medio centenar de  webs desarrolladas desde 2005.\n\nHe desempeñado funciones de Full Stack, Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, SEO, Analista Programador, Responsable de departamento técnico, Director creativo y Diseñador Gráfico.\n\nEn mi último trabajo he programado bajo entornos seguros PCI-DSS, con Programación imperativa, modular, exclusiva y sobre el patrón MVC.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor portal para músicos canarios en 2003: http://muscana.com.\n\nMe siento más cómodo en back-end sobre PHP que en front-end sobre Javascript, pero mi formación artística me impide alejarme del mundo del diseño, la usabilidad y las 'cosas bonitas'.\n\nActualmente estoy en proceso de aprendizaje, estudiando las nuevas virtudes de JavaScript y sus infinitas posibilidades, afianzando los patrones de diseño y poniéndome al día con Vue y Laravel.",
     "experiencia" : {
         "0" : {
             "titulo" : "Alejada SL",
-            "name" : "Analista Programador y Diseñador Web",
-            "info"  : "Desarrollo, gestión e implementación de varias aplicaciones internas de gestión de cobros, clientes, personal, tareas de mantenimiento y múltiples servicios webs basados en PHP 5, Mysql, HTML, CSS y Javascript, cumpliendo con normativa PCI-DSS. Intengrando pasarela de pagos REDSYS mediante WebService. Rediseño de la web corporativa y desarrollo de la intranet de la empresa.",
+            "name" : "Técnico en Programación - Desarrollador web Full Stack",
+            "info"  : "Diseño, Desarrollo, gestión e implementación de varias aplicaciones webs  internas de gestión de cobros, clientes, personal, tareas, mantenimientos y múltiples servicios webs basadas en PHP 5.6 modular, Mysql, HTML, CSS y Javascript, cumpliendo con normativa PCI-DSS. Intengrando pasarelas de pagos mediante WebService. Consumo de Apis de terceros e interconectando bases de datos entre servicios y paneles estadísticos.\n\nDiseño, prototipado y desarrollo de las webs:\n\naliciagalvan.com, aiccanar.org, alemontanez.com, tienda.tarotaliciagalvan.com, alejadaholidays.com\n\nDiseño gráfico corporativo y de interfaces (Photoshop e Illustrator)",
             "fechas" : "2010 - 2018"
         },
         "1" : {
             "titulo" : "Freelance",
-            "name" : "Programador y Maquetador Web",
-            "info"  : "Varios trabajos como programador web para estudio de Pamplona y como diseñador y programador web para otras empresas canarias. Trabajando sobre tecnología PHP 5, HTML, CSS y JavaScript.",
-            "fechas" : "2008 - 2014"
+            "name" : "Desarrollador Web Full Stack - Diseñador",
+            "info"  : "Más de 50 trabajos como maquetador, diseñador y/o programador web. Trabajando sobre tecnologías PHP 5, HTML, CSS y JavaScript. Autenticación, Permisología, Seguridad, Gestión de idiomas, SEO, Apis, GoogleMaps, Boletines, Gestores de contenidos, Reproductores multimedia, Analytics, Optimización, Tareas Programadas...",
+            "fechas" : "2006 - 2014"
         }         
     },
-    "tecnologias" : "PHP 5, Mysql, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, ES6, Ajax, Vue, React, JQuery, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Laravel, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare.",
+    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, Ajax, Vue, JQuery, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare, FileZilla.",
     "formacion" : {
         "0" : {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
@@ -94,6 +90,12 @@
             "name" : "U.L.L.",
             "fechas" : "2000 - 2005",
             "info" : "Especializado en Diseño Gráfico."
+        },
+        "2" : {
+            "titulo" : "Máster de Informática",
+            "name" : "Instituto de Informática de Canarias",
+            "fechas" : "1999 - 2000",
+            "info" : "Paquete Office, Internet y Diseño."
         }
     },
     "cursos" : {
@@ -120,6 +122,11 @@
             "titulo" : "En Proceso: Máster JAVA SE8",
             "name" : "",
             "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
+        },
+        "5" : {
+            "titulo" : "Curso de Aptitud Pedagógica.",
+            "name" : "",
+            "info"  : "Certificado para ejercer la docencia en secundaria."
         }
     },
     "aficiones" : "Me apasiona la Música; tocar la guitarra, el bajo, la batería, también me gusta el cine, las series, la tecnología; me pierden los cachivaches, las ofertas de pccomponentes y el chocolate."
