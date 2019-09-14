@@ -38,26 +38,22 @@
             "valor" : 50
         },
         "7" : {
-            "name" : "NPM",
-            "valor" : 15
-        },
-        "8" : {
             "name" : "Gestion DNS",
             "valor" : 80
         },
-        "9" : {
+        "8" : {
             "name" : "SEO",
             "valor" : 75
         },
-        "10" : {
+        "9" : {
             "name" : "UI / UX",
             "valor" : 80
         },
-        "11" : {
+        "10" : {
             "name" : "Diseño",
             "valor" : 90
         },
-        "12" : {
+        "11" : {
             "name" : "Inglés",
             "valor" : 20
         }
@@ -127,6 +123,11 @@
             "titulo" : "Curso de Aptitud Pedagógica.",
             "name" : "",
             "info"  : "Certificado para ejercer la docencia en secundaria."
+        },
+        "6" : {
+            "titulo" : "Curso Profesional Adobe XD.",
+            "name" : "",
+            "info"  : "Diseño de interfaces web y móviles, creando prototipos interactivos en minutos de forma profesional."
         }
     },
     "aficiones" : "Me apasiona la Música; tocar la guitarra, el bajo, la batería, también me gusta el cine, las series, la tecnología; me pierden los cachivaches, las ofertas de pccomponentes y el chocolate."
