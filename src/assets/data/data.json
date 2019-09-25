@@ -73,7 +73,7 @@
             "fechas" : "2006 - 2014"
         }         
     },
-    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, Ajax, Vue, JQuery, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare, FileZilla, Adobe XD",
+    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, Ajax, Vue, JQuery, Laravel, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare, FileZilla, Adobe XD",
     "formacion" : {
         "0" : {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
@@ -96,35 +96,40 @@
     },
     "cursos" : {
         "0" : {
+            "titulo" : "Laravel desde cero",
+            "name" : "",
+            "info"  : "Fundamentos del framework Laravel a partir de la versión 5.5 LTS"
+        },
+        "1" : {
             "titulo" : "Introducción a Vue.JS",
             "name" : "",
             "info"  : "Nociones básicas para utilizar el Framework VueJS"
         },
-        "1" : {
+        "2" : {
             "titulo" : "Programación con JavaScript",
             "name" : "",
             "info" : "Introducción al lenguaje de programación web Javascript en la parte del cliente."
         },
-        "2" : {
+        "3" : {
             "titulo" : "Crear un API RESTful con Slim PHP y usarla con AJAX",
             "name" : ""
         },
-        "3" : {
+        "4" : {
             "titulo" : "Aprende a programar aplicaciones Móviles",
             "name" : "",
             "info" : "Aplicaciones móviles híbridas con PrhoneGap, HTML, CSS y JavaScript."
         },
-        "4" : {
+        "5" : {
             "titulo" : "En Proceso: Máster JAVA SE8",
             "name" : "",
             "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
         },
-        "5" : {
+        "6" : {
             "titulo" : "Curso de Aptitud Pedagógica.",
             "name" : "",
             "info"  : "Certificado para ejercer la docencia en secundaria."
         },
-        "6" : {
+        "7" : {
             "titulo" : "Curso Profesional Adobe XD.",
             "name" : "",
             "info"  : "Diseño de interfaces web y móviles, creando prototipos interactivos en minutos de forma profesional."
