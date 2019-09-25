@@ -73,7 +73,7 @@
             "fechas" : "2006 - 2014"
         }         
     },
-    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, Ajax, Vue, JQuery, Laravel, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare, FileZilla, Adobe XD",
+    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, JavaScript, Ajax, Vue, JQuery, Laravel, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Sass, Bootstrap, Material Design, PhoneGap, Visual Studio Code, MVC, POO, Programación procedimental, PWA, Terminal, API rest ful, Slim, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, Cloudflare, FileZilla, Adobe XD, Docker",
     "formacion" : {
         "0" : {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
