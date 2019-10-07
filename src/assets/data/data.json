@@ -9,51 +9,51 @@
         "linkedin" : "jorgesantanarodriguez"
     }, 
     "habilidades": {
-        "0" : {
+        {
             "name" : "PHP",
             "valor" : 80
         },
-        "1" : {
+        {
             "name" : "MYSQL",
             "valor" : 75
         },
-        "2" : {
+        {
             "name" : "HTML, CSS",
             "valor" : 85
         },
-        "3" : {
+        {
             "name" : "JAVASCRIPT",
             "valor" : 45
         },
-        "4" : {
+        {
             "name" : "GIT",
             "valor" : 25
         },
-        "5" : {
+        {
             "name" : "VUE",
             "valor" : 20
         },
-        "6" : {
+        {
             "name" : "JQUERY",
             "valor" : 50
         },
-        "7" : {
+        {
             "name" : "Gestion DNS",
             "valor" : 80
         },
-        "8" : {
+        {
             "name" : "SEO",
             "valor" : 75
         },
-        "9" : {
+        {
             "name" : "UI / UX",
             "valor" : 80
         },
-        "10" : {
+        {
             "name" : "Diseño",
             "valor" : 90
         },
-        "11" : {
+        {
             "name" : "Inglés",
             "valor" : 20
         }
