@@ -96,7 +96,7 @@
     },
     "cursos" : {
         "0" : {
-            "titulo" : "Curso de MongoDB - Aprende bases de datos NoSQL + API NodeJS",
+            "titulo" : "Curso de MongoDB - Bases de datos NoSQL + API NodeJS",
             "name" : "",
             "info"  : "MongoDB. Crear APIs RESTful con NodeJS, Express.js y Mongoose"
         },
