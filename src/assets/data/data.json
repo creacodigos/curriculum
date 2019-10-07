@@ -96,40 +96,45 @@
     },
     "cursos" : {
         "0" : {
+            "titulo" : "Curso de MongoDB - Aprende bases de datos NoSQL + API NodeJS",
+            "name" : "",
+            "info"  : "MongoDB. Crear APIs RESTful con NodeJS, Express.js y Mongoose"
+        },
+        "1" : {
             "titulo" : "Laravel desde cero",
             "name" : "",
             "info"  : "Fundamentos del framework Laravel a partir de la versión 5.5 LTS"
         },
-        "1" : {
+        "2" : {
             "titulo" : "Introducción a Vue.JS",
             "name" : "",
             "info"  : "Nociones básicas para utilizar el Framework VueJS"
         },
-        "2" : {
+        "3" : {
             "titulo" : "Programación con JavaScript",
             "name" : "",
             "info" : "Introducción al lenguaje de programación web Javascript en la parte del cliente."
         },
-        "3" : {
+        "4" : {
             "titulo" : "Crear un API RESTful con Slim PHP y usarla con AJAX",
             "name" : ""
         },
-        "4" : {
+        "5" : {
             "titulo" : "Aprende a programar aplicaciones Móviles",
             "name" : "",
             "info" : "Aplicaciones móviles híbridas con PrhoneGap, HTML, CSS y JavaScript."
         },
-        "5" : {
+        "6" : {
             "titulo" : "En Proceso: Máster JAVA SE8",
             "name" : "",
             "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
         },
-        "6" : {
+        "7" : {
             "titulo" : "Curso de Aptitud Pedagógica.",
             "name" : "",
             "info"  : "Certificado para ejercer la docencia en secundaria."
         },
-        "7" : {
+        "8" : {
             "titulo" : "Curso Profesional Adobe XD.",
             "name" : "",
             "info"  : "Diseño de interfaces web y móviles, creando prototipos interactivos en minutos de forma profesional."
