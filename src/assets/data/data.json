@@ -19,19 +19,19 @@
         },
         {
             "name" : "HTML, CSS",
-            "valor" : 85
+            "valor" : 90
         },
         {
             "name" : "JAVASCRIPT",
-            "valor" : 60
+            "valor" : 75
         },
         {
             "name" : "GIT",
-            "valor" : 50
+            "valor" : 60
         },
         {
             "name" : "VUE",
-            "valor" : 30
+            "valor" : 45
         },
         {
             "name" : "JQUERY",
