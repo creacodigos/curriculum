@@ -87,11 +87,14 @@ nav > ul > li:first-child {
 meter{
     width           : 100%;
     height          : 0.5em;
+    border: none;
 }
 
 /* Safari Chrome */
 meter::-webkit-meter-bar {
-    background      : #CCCCCC; margin-top: -0.3em;
+    background      : #CCCCCC; 
+    margin-top: -0.3em;
+    border: none;
 }
 meter::-webkit-meter-optimum-value{
     background-image     : linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
