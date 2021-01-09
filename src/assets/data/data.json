@@ -27,11 +27,15 @@
         },
         {
             "name" : "GIT",
-            "valor" : 60
+            "valor" : 75
         },
         {
             "name" : "VUE",
-            "valor" : 45
+            "valor" : 50
+        },
+        {
+            "name" : "NUXT",
+            "valor" : 30
         },
         {
             "name" : "JQUERY",
@@ -39,11 +43,11 @@
         },
         {
             "name" : "Gestion DNS",
-            "valor" : 80
+            "valor" : 75
         },
         {
             "name" : "SEO",
-            "valor" : 80
+            "valor" : 75
         },
         {
             "name" : "UI / UX",
@@ -85,7 +89,7 @@
             "fechas" : "2006 - 2014"
         }         
     ],
-    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, Sass, JavaScript, Ajax, Vue.js, Nuxt.js, Yii2, JQuery, API restful, Slim, Laravel, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Bootstrap, Material Design, PhoneGap, Visual Studio Code, PHPStorm, MVC, SPA, PWA, Terminal, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, BitBucket, Cloudflare, FileZilla, Adobe XD, Docker, MongoDB, NodeJS, FireBase",
+    "tecnologias" : "PHP, Mysql, MariaDB, PostgreSQL, HTML, HTML5, CSS, CSS3, Sass, JavaScript, Ajax, Vue.js, Nuxt.js, Yii2, Node, JQuery, API restful, Slim, Laravel, Apache, Git, XML, WebService, JSON, PostMan, Parcel, NPM, Bootstrap, Material Design, PhoneGap, Visual Studio Code, PHPStorm, MVC, SPA, PWA, Terminal, Photoshop, Illustrator, Plesk, Cpanel, XAMP, GitHub, BitBucket, Cloudflare, FileZilla, Adobe XD, Docker, MongoDB, NodeJS, FireBase, Trello, Katalon",
     "formacion" : [
         {
             "titulo" : "Técnico Superior Desarrollo de Aplicaciones Web",
