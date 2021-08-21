@@ -4,7 +4,7 @@
     <section aria-labelledby="datos">
       <article id="foto">
         <div :title=`${datos.datos.nombre}`>
-          <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana">
+          <img src="../assets/img/jorge_santana.jpg" alt="Foto Jorge Santana" width="263">
         </div>
       </article>
       <article>
@@ -46,6 +46,23 @@ export default {
     },
     data() {
         return this.$parent.$parent
+    },
+    mounted(){
+      /*
+      let divs = document.querySelector('.one');
+      let alto_divs = document.querySelector('.one > section:nth-child(1)').clientHeight + document.querySelector('.one > section:nth-child(2)').clientHeight;
+      let alto_window = window.innerHeight;
+      if(alto_window > alto_divs)
+      {
+        divs.style.position = 'fixed';
+      }
+      */
     }
 }
 </script>
+<style scoped>
+/*
+  .one #foto img{
+    width: 263px;
+  }*/
+</style>

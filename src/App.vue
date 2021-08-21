@@ -11,7 +11,7 @@
 
       <section class="content" v-else>        
         <cr-header></cr-header>
-        <cr-nav></cr-nav>
+        <!--<cr-nav></cr-nav>-->
         <cr-main></cr-main>
         <cr-footer></cr-footer>
       </section>
