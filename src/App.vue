@@ -25,6 +25,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import datos from './assets/data/data.json';
 
 export default {
     name: 'App',
@@ -36,7 +37,7 @@ export default {
   },
   data() {
     return {
-      datos: [],
+      datos: datos,
       api : 'https://raw.githubusercontent.com/creacodigos/curriculum/master/src/assets/data/data.json',
       loading: true,
       errored: false
