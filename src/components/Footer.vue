@@ -13,7 +13,7 @@
           <i class="fab fa-twitter"></i>
         </a>
       </div> 
-      <div class="top" @click="scrollToTop()">
+      <div id="back-to-top" class="top" @click="scrollToTop()">
         <i class="fas fa-arrow-alt-circle-up"></i>
       </div>
     </div>
@@ -29,8 +29,28 @@ export default {
   methods:{
     scrollToTop(){
       window.scrollTo({ top: 0, behavior: 'smooth' })
+    },
+    checkScroll: function(){
+        return window.scrollY;
+        },
+    mostrarSubir: function(){
+
+      window.onscroll = function() {
+
+          let elemento = document.getElementById("back-to-top");
+          elemento.classList.remove('show','fadein','delay2');
+
+          if(window.scrollY > 200)
+          elemento.classList.toggle('show','fadein','delay2');
+
+      }
     }
-  }
+
+  },
+    mounted() {
+        console.log('MOUNTED');
+        this.mostrarSubir();
+    }
 }
 </script>
 
@@ -40,16 +60,21 @@ footer{
   font-size: 1rem;
 }
 
-.top{
+#back-to-top{
   position: fixed;
   bottom: 2rem;
   right: 1rem;
+	opacity: 0;
 }
-.top i{
+#back-to-top i{
   font-size: 3rem;
   color: #43cbff;
   cursor: pointer;
 }
+#back-to-top.show {
+	opacity: 1;
+}
+
 .redes i{
   font-size: 2rem;
   margin: 1rem;
@@ -57,4 +82,17 @@ footer{
 .redes a i{
   color: white;
 }
+
+@media (max-width: 767px ){
+
+	#back-to-top {
+		right: 0;
+		bottom: 2rem;
+	}
+
+	#back-to-top.show {
+		opacity: 0.75;
+	}
+}
+
 </style>
