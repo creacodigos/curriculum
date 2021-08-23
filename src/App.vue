@@ -60,9 +60,9 @@ export default {
     }
   },
   created () {
-    //this.leerDatos()
-    console.log('DATOS',datos);
-    setTimeout(() => this.loading = false, 500);
+    this.leerDatos()
+    console.log('DATOS',this.datos);
+    //setTimeout(() => this.loading = false, 500);
   }
 
 }
