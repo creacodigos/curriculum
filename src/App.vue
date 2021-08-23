@@ -1,15 +1,16 @@
 <template>
-  <div id="app" v-cloak>
+  <div id="app">
     <section v-if="errored">
       <p>Ouchh...!! Algo ha fallado de forma inesperada.<br>
       Por favor, inténtalo más tarde</p>
     </section>
     <section class="content" v-else>
-      <div v-if="loading" id="loading">
-        <i class="fas fa-sync"></i>
+      <div v-if="loading" class="over">
+        <div id="loading">
+          <i class="fas fa-sync"></i>
+        </div>
       </div>
-
-      <section class="content" v-else>        
+      <section class="content">        
         <cr-header></cr-header>
         <!--<cr-nav></cr-nav>-->
         <cr-main></cr-main>
@@ -43,9 +44,6 @@ export default {
       errored: false
     }
   },
-  created () {
-    this.leerDatos()
-  },
   methods: {
     leerDatos() {
       fetch(this.api)
@@ -60,6 +58,11 @@ export default {
           this.loading = true
         })
     }
+  },
+  created () {
+    //this.leerDatos()
+    console.log('DATOS',datos);
+    setTimeout(() => this.loading = false, 500);
   }
 
 }
@@ -69,4 +72,16 @@ export default {
   @import url("https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,500,700");
   @import url("./assets/css/reset.css");
   @import url("./assets/css/style.css");
+
+  .over {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgba(255,255,255, .95);
+    z-index: 9;
+    padding-top: 5vh;
+}
 </style>

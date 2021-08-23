@@ -60,9 +60,3 @@ export default {
     }
 }
 </script>
-<style scoped>
-/*
-  .one #foto img{
-    width: 263px;
-  }*/
-</style>
