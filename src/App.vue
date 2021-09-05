@@ -56,6 +56,7 @@ export default {
         .catch(error => {
           console.error('ERROR: '+ error)
           this.loading = true
+          this.errored = true
         })
     }
   },
