@@ -48,7 +48,6 @@ export default {
 
   },
     mounted() {
-        console.log('MOUNTED');
         this.mostrarSubir();
     }
 }
