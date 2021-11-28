@@ -141,20 +141,15 @@
             "info" : "Aplicaciones móviles híbridas con PrhoneGap, HTML, CSS y JavaScript."
         },
         {
-            "titulo" : "En Proceso: Máster JAVA SE8",
+            "titulo" : "Curso Profesional Adobe XD.",
             "name" : "",
-            "info"  : "Curso destinado a la preparación para certificación OCA y OCP. Cursándolo actualemte."
+            "info"  : "Diseño de interfaces web y móviles, creando prototipos interactivos en minutos de forma profesional."
         },
         {
             "titulo" : "Curso de Aptitud Pedagógica.",
             "name" : "",
             "info"  : "Certificado para ejercer la docencia en secundaria."
-        },
-        {
-            "titulo" : "Curso Profesional Adobe XD.",
-            "name" : "",
-            "info"  : "Diseño de interfaces web y móviles, creando prototipos interactivos en minutos de forma profesional."
         }
     ],
-    "aficiones" : "Me apasiona la Música; tocar la guitarra, el bajo, la batería, también me gusta el cine, las series, la tecnología; me pierden los cachivaches, las ofertas de pccomponentes y el chocolate."
+    "aficiones" : "La Música (guitarra, bajo y batería), el sillón ball, las series y la tecnología; me pierden los cachivaches, las ofertas de pccomponentes y el chocolate."
 }
