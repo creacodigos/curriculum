@@ -62,11 +62,11 @@
             "valor" : 20
         }
     ],
-    "perfil" : "Full Stack Developer & PizzaBurger Maker 🖥️ 🍕 🍔 🎸 con más de 10 años de experiencia en PHP, MySQL, HTML, CSS y JavaScript. Más de medio centenar de  webs desarrolladas desde 2005.\n\nCapacidad para el aprendizaje y en constante renovación. Apasionado de las nuevas tecnologías y tendencias artísticas. Comprometido con la comunidad y siempre buscando cómo aportar para dejar un mundo mejor.\n\nHe desempeñado funciones de Líder de equipo, Full Stack, Diseñador Web, Maquetador Web, Desarrollo Front-end y Back-end, SEO, Analista Programador, Responsable de departamento técnico, Director creativo y Diseñador Gráfico.\n\nHe programado bajo entornos seguros PCI-DSS, con programación orientada a objetos, imperativa, modular, exclusiva y sobre el patrón MVC.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor Portal para Músicos Canarios en 2003: http://muscana.com.\n\nMe gusta crear webs y plataformas útiles, usables y bonitas, sin desatender su seguridad y vulnerabilidades.\n\nIntersado en el clean code y el despliegue e integración contínua.",
+    "perfil" : "Soy un tinerfeño creador de códigos para la web desde 2003, o técnicamente denominado como: Full Stack Developer, padre & PizzaBurger Maker 🖥️ 🍕 🍔 🎸 con más de medio centenar de  webs desarrolladas.\n\nApasionado de las nuevas tecnologías y tendencias artísticas. Comprometido con la comunidad y siempre buscando cómo aportar para dejar un mundo mejor.\n\nHe desempeñado puestos en toda la cadena del desarrollo de software. Actualmente soy el CTO de una prometedora startup, pero también he sido: Líder de equipo, desarrollador Full Stack, Front-end y Back-end, Diseñador, Maquetador... aunque también he sido Director creativo y Diseñador Gráfico.\n\nAprendí mi profesión disfrutando de mi principal pasión, la música, creando el mayor Portal para Músicos Canarios en 2003: http://muscana.com.\n\nIntersado en el clean code y el despliegue contínuo.",
     "experiencia" : [
         {
             "titulo" : "Token City S.L.",
-            "name" : "Líder de desarrollo - Desarrollador web Full Stack",
+            "name" : "CTO - Líder de desarrollo - Desarrollador web Full Stack",
             "info"  : "Líder del equipo de desarrollo web.\n\nYii2 & Vue - PHP, Mysql, Javascript, Css, Html, Git, Jira, Bitbucket, AWS ...",
             "fechas" : "2020 - Actualidad"
         },
